@@ -44,6 +44,28 @@ This is an API for an Online Bookstore. It allows for CRUD operations on authors
 - DB_DATABASE=onlinebookstore
 ### Run the application
 - npm start
+### Running with Docker
+## Build the Docker image
+- docker build -t onlinebookstore-api .
+## Run Docker Compose
+- docker-compose up
+### Project Structure
+- src/: Contains the source code for the project.
+
+  - controllers/: Contains controller files for handling requests and responses.
+    - entities/: Contains TypeORM entity definitions for the database tables.
+    - routes/: Contains route definitions for the API endpoints.
+    - services/: Contains business logic and service layer files.
+    - data-source.ts: Configures the TypeORM data source.
+    - index.ts: Entry point for the application.
+
+- docker-compose.yml: Docker Compose configuration file.
+
+- Dockerfile: Dockerfile for building the application image.
+
+- .env: Environment configuration file.
+
+- README.md: This file.
 
 
 
