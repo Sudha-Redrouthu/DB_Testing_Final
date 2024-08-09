@@ -3,6 +3,27 @@
 ## Description
 This is an API for an Online Bookstore. It allows for CRUD operations on authors, books, customers, genres, publishers, and reviews. The project utilizes TypeScript with Node.js and Express, and connects to a PostgreSQL database using TypeORM. Docker is used for containerization.
 
+# Group 11
+## Sudha Karthikeyan Mohan
+ 
+## Responsibilities
+ 
+## sudha
+ 
+- Database Setup
+- Implementing CRUD functionalties
+- Data migration
+ 
+## Karthik
+ 
+- Integration testing
+- Entity relationship diagram
+ 
+## Mohan
+ 
+- Readme.md file
+- Unit testing
+
 ## Project Structure
 - **src/**
   - **controllers/**: Contains the controller files for managing API routes.
