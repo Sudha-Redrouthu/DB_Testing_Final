@@ -1,40 +1,30 @@
-Project Work Distribution
-Team Members
-Mohan Krishna Kanaparthi
-Sudha Rani Redroutu
-Karthikeyan Balaiyan
+# Online Bookstore API
 
-Tasks
+## Description
+This is an API for an Online Bookstore. It allows for CRUD operations on authors, books, customers, genres, publishers, and reviews. The project utilizes TypeScript with Node.js and Express, and connects to a PostgreSQL database using TypeORM. Docker is used for containerization.
 
-1. Mohan Krishna Kanaparthi
-Database Setup
+## Project Structure
+- **src/**
+  - **controllers/**: Contains the controller files for managing API routes.
+  - **entities/**: Defines the TypeORM entities for the database tables.
+  - **routes/**: Contains the route definitions for the API endpoints.
+  - **services/**: Contains the service files for handling business logic.
+  - **data-source.ts**: Configures the TypeORM data source.
+  - **index.ts**: Main entry point for the application.
+- **Dockerfile**: Docker configuration for building the project container.
+- **docker-compose.yml**: Docker Compose configuration for managing containers.
+- **README.md**: This file.
 
-Design and set up the database.
-Create necessary tables and columns.
-Ensure the database is functional for CRUD operations.
-Integration Testing
+## Setup
 
-Write integration tests that cover the entire system.
-Ensure all components work together smoothly.
+### Prerequisites
+- Node.js and npm
+- PostgreSQL
+- Docker
 
-2. Sudha Rani Redroutu
-Implement CRUD Functions
+### Installation
 
-Develop CRUD operations for every table.
-Ensure CRUD operations are optimized and functioning correctly.
-Data Migration
-
-Implement migration scripts with assistance from Karthikeyan Balaiyan.
-Populate each table with at least three rows of data.
-Test the data migration process to ensure accuracy.
-
-3. Karthikeyan Balaiyan
-Unit Testing
-
-Write unit tests for each CRUD operation.
-Verify that each operation works correctly in isolation.
-ERD & Technical Implementation
-
-Create the ERD visualizing the database structure.
-Handle Docker containerization.
-Work with Sudha Rani Redroutu on integrating TypeORM for database operations.
+1. **Clone the repository:**
+   ```bash
+   git clone <repository-url>
+   cd <repository-directory>
