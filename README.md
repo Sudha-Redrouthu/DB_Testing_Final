@@ -34,6 +34,15 @@ This is an API for an Online Bookstore. It allows for CRUD operations on authors
 - Node.js and npm
 - PostgreSQL
 - Docker
+### Install Dependencies
+- npm install
+### Configure environment variables
+- DB_HOST=localhost
+- DB_PORT=5432
+- DB_USERNAME=postgres
+- DB_PASSWORD=newpassword
+- DB_DATABASE=onlinebookstore
+
 
 
 
