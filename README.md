@@ -49,7 +49,7 @@ This is an API for an Online Bookstore. It allows for CRUD operations on authors
    ```bash
    git clone <repository-url>
    cd <repository-directory>
-   ## Setup
+  
 
 ### Prerequisites
 - Node.js and npm
