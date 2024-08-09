@@ -66,6 +66,12 @@ This is an API for an Online Bookstore. It allows for CRUD operations on authors
 - .env: Environment configuration file.
 
 - README.md: This file.
+### Testing
+- npm test
+### Contributing
+- Fork the repository and create a new branch for your changes.
+- Make your changes and ensure that all tests pass.
+- Submit a pull request with a detailed description of your changes.
 
 
 
