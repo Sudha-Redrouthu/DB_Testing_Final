@@ -42,7 +42,8 @@ This is an API for an Online Bookstore. It allows for CRUD operations on authors
 - DB_USERNAME=postgres
 - DB_PASSWORD=newpassword
 - DB_DATABASE=onlinebookstore
-
+### Run the application
+- npm start
 
 
 
