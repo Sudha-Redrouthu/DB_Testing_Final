@@ -67,9 +67,9 @@ This is an API for an Online Bookstore. It allows for CRUD operations on authors
 - npm start
 ### Running with Docker
 ## Build the Docker image
-- docker build -t onlinebookstore-api .
+- sudo docker-compose build
 ## Run Docker Compose
-- docker-compose up
+-  sudo docker-compose up
 ### Project Structure
 - src/: Contains the source code for the project.
 
